@@ -1,0 +1,18 @@
+{
+    "event_name" : "Example_Event",
+    "description" : "exmple_description",
+    "count_down" : 10,
+    "camera_to_use" : "front_or_back",
+    "multimedia_type" : {
+        "photos" : true,
+        "boomerang" : {"selected":true, "boomerang_rep" : 2, "boomerang_vel": 4, "boomerang_dur":10, "slow_mo_at_the_end":true},
+        "gif_animated" : {"selected":true,"photos_quantity" : 4, "photos_duration":2},
+        "video" : {"selected":true,"max_duration":15},
+        "slow_mo" : {"selected":true,"base_time":5, "slow_mo_vel":2}
+    },
+    "audio":"path",
+    "plantilla_general":"path",
+    "sticker_superior":{"path":"path", "position":"center,left,right"},
+    "sticker_inferior":{"path":"path", "position":"center,left,right"},
+    "share_method":""
+}
